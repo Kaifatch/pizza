@@ -20,11 +20,6 @@ li {
   margin: 0 auto;
 }
 
-.header {
-  margin-top: 36px;
-  margin-bottom: 39px;
-}
-
 .logo {
   width: 175px;
   height: 51px;
@@ -34,6 +29,8 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 36px;
+  margin-bottom: 39px;
 }
 
 .navigation__items {
