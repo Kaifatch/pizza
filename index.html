@@ -13,7 +13,9 @@
     <div class="wrapper">
       <div class="navigation">
         <div class="logo">
-          <img src="./src/img/logo.png" alt="Logo">
+          <a href="#">
+            <img src="./src/img/logo.png" alt="Logo">
+          </a>
         </div>
         <nav>
           <ul class="navigation__items">
@@ -46,7 +48,7 @@
             <a href="#" class="btn">READ MORE</a>
           </div>
           <div class="banner__image">
-            <img src="./src/img/pizza.png" alt="pizza">
+            <img src="./src/img/pizza.png" alt="pizza" class="banner__image">
           </div>
         </div>
       </div>
@@ -55,36 +57,52 @@
   <main>
     <div class="wrapper">
       <section class="block">
-        <h2 class="block__title">HOW TO PROGRESS?</h2>
-        <p class="block__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+        <div class="center">
+          <h2 class="block__title">HOW TO PROGRESS?</h2>
+          <p class="block__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+        </div>
         <div class="block__menu">
           <ul class="menu">
             <li class="menu__items">
-              <a href="#" class="menu__link">pizza cartoon</a>
+              <a href="#" class="menu__link active">pizza cartoon</a>
+            </li>
+            <li class="menu__items">
               <a href="#" class="menu__link">Burger</a>
+            </li>
+            <li class="menu__items">
               <a href="#" class="menu__link">sandwich</a>
+            </li>
+            <li class="menu__items">
               <a href="#" class="menu__link">LOREMISPSUM</a>
             </li>
           </ul>
         </div>
-        <div class="block__content">
-          <div class="content__description">
+        <ul class="box">
+          <li class="box__item">
             <div class="number number__one">1</div>
-            <h3 class="content__title">CREATE IT</h3>
-            <p class="content__text">Choose from a selection of tastilicious toppings to create your own pizza</p>
-          </div>
-          <div class="content__description">
+            <div class="box__text">
+              <h3 class="item__title">CREATE IT</h3>
+              <p class="item__text">Choose from a selection of tastilicious toppings to create your own pizza</p>
+            </div>
+          </li>
+          <li class="box__item">
             <div class="number number__two">2</div>
-            <h3 class="content__title">NAME IT</h3>
-            <p class="content__text">Choose from a selection of tastilicious toppings to create your own pizza</p>
-          </div>
-          <div class="content__description">
+            <div class="box__text">
+              <h3 class="item__title">NAME IT</h3>
+              <p class="item__text">Choose from a selection of tastilicious toppings to create your own pizza</p>
+            </div>
+          </li>
+          <li class="box__item">
             <div class="number number__three">3</div>
-            <h3 class="content__title">FAME IT</h3>
-            <p class="content__text">Choose from a selection of tastilicious toppings to create your own pizza</p>
-          </div>
+            <div class="box__text">
+              <h3 class="item__title">FAME IT</h3>
+              <p class="item__text">Choose from a selection of tastilicious toppings to create your own pizza</p>
+            </div>
+          </li>
+        </ul>
+        <div class="center">
+          <a href="#" class="block__btn">CREATE YOUR LEGEND</a>
         </div>
-        <a href="#" class="block__btn">CREATE YOUR LEGEND</a>
       </section>
     </div>
   </main>
